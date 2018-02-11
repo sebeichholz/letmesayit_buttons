@@ -28,6 +28,13 @@ button {
   text-transform: none;
   background-color: white;
   line-height: 1.1;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */  
 }
 
 button:hover, button:active {
@@ -54,7 +61,7 @@ button:hover, button:active {
   button {
     width: 24%;
     height: 150px;
-    font-size: 25pt;
+    font-size: 16pt;
   }
 
 }
@@ -63,7 +70,7 @@ button:hover, button:active {
 @media (min-width: 1000px) {
   button {
     width: 29%;
-    font-size: 30pt;
+    font-size: 20pt;
   }
 
 }
