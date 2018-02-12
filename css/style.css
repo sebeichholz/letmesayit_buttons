@@ -4,6 +4,43 @@
   border: 0px solid red;
   padding: 0px;
 }
+
+#help {
+  text-align: left;
+  background-color: white;
+  border: 1px solid black;
+  width: 90%;
+  position: fixed;
+  bottom: 41px;
+  right: 5px;
+  display: inline;
+  padding: 10px;
+}
+#helpbutton {
+  bottom: 0px;
+  right: 0px;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  opacity: 0.3;
+  cursor: pointer;
+}
+#helpbutton:hover {
+  opacity: 0.8;
+}
+#footer {
+  position:absolute;
+  bottom:0px;
+  text-align: center;
+  width: 98%;
+}
+#footer a {
+  margin-right: 5px;
+}
+
+a, a:visited {
+  color: #666666;
+}
 body {
   font-family: 'Lato', sans-serif;
   text-align: center;
@@ -34,7 +71,7 @@ button {
        -moz-user-select: none; /* Firefox */
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */  
+                                  supported by Chrome and Opera */
 }
 
 button:hover, button:active {
